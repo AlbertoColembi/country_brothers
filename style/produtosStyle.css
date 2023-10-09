@@ -1,0 +1,170 @@
+.table_tube{
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+.table_tube .conteiner_table_tube{
+    overflow-x: auto;
+    overflow-x: hidden;
+    }
+    
+    .table_tube .conteiner_table_tube .slider-images-tube {
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 15px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .table_tube .conteiner_table_tube .slider-images-tube .img_tube {
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+      border: 5px solid rgb(90, 37, 2) ;
+      transition: all 600ms ease-in-out;
+    }
+   
+  
+    .prev-button_tube ,  .next-button_tube{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      font-size: 30px;
+      line-height: 250px;
+      width: 40px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      background: linear-gradient(to left, transparent 0%, black 200%);
+      opacity: 0.1;
+    }
+    .next-button_tube{
+      position: absolute;
+      top: 0;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      
+      background: linear-gradient(to right transparent 0%, black 200%);
+    }
+    .prev-button_tube:hover, .next-button_tube:hover{
+      opacity: 1;
+      transition: all 500ms ease-in-out;
+    }
+    .table_leg{
+        position: relative;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    .table_leg .conteiner_table_leg{
+        overflow-x: auto;
+        overflow-x: hidden;
+        }
+        
+        .table_leg .conteiner_table_leg .slider-images-leg {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 15px;
+          transition: transform 0.3s ease-in-out;
+        }
+        
+        .table_leg .conteiner_table_leg .slider-images-leg .img_leg {
+          width: 250px;
+          height: 250px;
+          flex-shrink: 0;
+          border: 5px solid rgb(90, 37, 2) ;
+          transition: all 600ms ease-in-out;
+        }
+       
+      
+        .prev-button_leg ,  .next-button_leg{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: auto;
+          bottom: 0;
+          font-size: 30px;
+          line-height: 250px;
+          width: 40px;
+          text-align: center;
+          color: #fff;
+          cursor: pointer;
+          border: none;
+          background: linear-gradient(to left, transparent 0%, black 200%);
+          opacity: 0.1;
+        }
+        .next-button_leg{
+          position: absolute;
+          top: 0;
+          left: auto;
+          right: 0;
+          bottom: 0;
+          
+          background: linear-gradient(to right transparent 0%, black 200%);
+        }
+        .prev-button_leg:hover, .next-button_leg:hover{
+          opacity: 1;
+          transition: all 500ms ease-in-out;
+        }
+    
+    
+
+    .table_cer{
+        position:relative;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    .table_cer .conteiner_table_cer{
+        overflow-x: auto;
+        overflow-x: hidden;
+        }
+        
+        .table_cer .conteiner_table_cer .slider-images-cer {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 15px;
+          transition: transform 0.3s ease-in-out;
+        }
+        
+        .table_cer .conteiner_table_cer .slider-images-cer .img_cer {
+          width: 250px;
+          height: 250px;
+          flex-shrink: 0;
+          border: 5px solid rgb(90, 37, 2) ;
+          transition: all 600ms ease-in-out;
+        }
+       
+      
+        .prev-button_cer ,  .next-button_cer{
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: auto;
+          bottom: 0;
+          font-size: 30px;
+          line-height: 250px;
+          width: 40px;
+          text-align: center;
+          color: #fff;
+          cursor: pointer;
+          border: none;
+          background: linear-gradient(to left, transparent 0%, black 200%);
+          opacity: 0.1;
+        }
+        .next-button_cer{
+          position: absolute;
+          top: 0;
+          left: auto;
+          right: 0;
+          bottom: 0;
+          
+          background: linear-gradient(to right transparent 0%, black 200%);
+        }
+        .prev-button_cer:hover, .next-button_cer:hover{
+          opacity: 1;
+          transition: all 500ms ease-in-out;
+        }
+    
+    
